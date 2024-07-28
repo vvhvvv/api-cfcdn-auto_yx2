@@ -4,7 +4,7 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
 # Cloudflare API 参数
-api_token = "4c37e4197c8252442f0c343ed5a6dddc99ca1"
+api_token = "0egoe0ynAgBUdkA8yaYzhXMSK7GNrhfv2NQWmCb5"
 zone_id = "d33ca6ac5474cd19f9e346ae7045ac20"
 subdomain = "yx2.nssb.vip"  # 您的二级域名
 

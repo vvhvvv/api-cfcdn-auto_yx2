@@ -3,7 +3,7 @@ import csv
 import time
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-
+#CM: 中国移动 (China Mobile) 的缩写。
 api_token = "0egoe0ynAgBUdkA8yaYzhXMSK7GNrhfv2NQWmCb5"
 zone_id = "d33ca6ac5474cd19f9e346ae7045ac20"
 domain = "yd.nssb.vip"  # 您的二级域名

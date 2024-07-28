@@ -5,9 +5,9 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # Cloudflare API 参数
-api_token = ""
-zone_id = ""
-subdomain = ""  # 您的二级域名
+api_token = "0egoe0ynAgBUdkA8yaYzhXMSK7GNrhfv2NQWmCb5"
+zone_id = "d33ca6ac5474cd19f9e346ae7045ac20"
+subdomain = "fd1.nssb.vip"  # 您的二级域名
 
 # Cloudflare API 端点
 api_url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records"

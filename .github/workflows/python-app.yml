@@ -27,16 +27,16 @@ jobs:
           pip install requests urllib3
 
       - name: Run Python script1
-        run: python proxy.py  # 替换为你的 Python 脚本的路径
+        run: python proxy.py  # 替换为你的 Python 脚本的路径  fd1.nssb.vip
         
       - name: Run Python script2
-        run: python CT.py  # 替换为你的 Python 脚本的路径
+        run: python CT.py  # 替换为你的 Python 脚本的路径  dx.nssb.vip
         
       #- name: Run Python script3
       #  run: python CU.py  # 替换为你的 Python 脚本的路径
         
       - name: Run Python script4
-        run: python CM.py  # 替换为你的 Python 脚本的路径
+        run: python CM.py  # 替换为你的 Python 脚本的路径  yd.nssb.vip
         
       - name: Run Python script5
-        run: python bestcf.py  # 替换为你的 Python 脚本的路径
+        run: python bestcf.py  # 替换为你的 Python 脚本的路径  yx1.nssb.vip

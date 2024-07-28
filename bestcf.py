@@ -2,11 +2,11 @@ import requests
 import csv
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
-
+#优选 Cloudflare 官方 IP 地址列表(Half hour)
 # Cloudflare API 参数
 api_token = "0egoe0ynAgBUdkA8yaYzhXMSK7GNrhfv2NQWmCb5"
 zone_id = "d33ca6ac5474cd19f9e346ae7045ac20"
-subdomain = "yx2.nssb.vip"  # 您的二级域名
+subdomain = "yx1.nssb.vip"  # 您的二级域名
 
 # Cloudflare API 端点
 api_url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records"

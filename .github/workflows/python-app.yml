@@ -6,7 +6,7 @@ on:
     branches: 
       - master
   schedule:
-    - cron: '*/6 * * * *'  # 每天 UTC 时间的 0:00 执行一次，你可以根据需要调整 cron 表达式
+    - cron: '* * * * *'  # 每小时执行一次
 
 jobs:
   build:

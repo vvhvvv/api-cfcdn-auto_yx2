@@ -26,8 +26,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests urllib3
 
-      - name: Run Python script1
-        run: python proxy.py  # 替换为你的 Python 脚本的路径  fd1.nssb.vip
+      #- name: Run Python script1
+       # run: python proxy.py  # 替换为你的 Python 脚本的路径  fd1.nssb.vip
         
       - name: Run Python script2
         run: python CT.py  # 替换为你的 Python 脚本的路径  dx.nssb.vip
